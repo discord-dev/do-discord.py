@@ -46,5 +46,4 @@ async def usri(ctx, user: discord.Member):
     embed.set_thumbnail(url=user.avatar_url)
     await bot.say(embed=embed)
 
-bot.run("NDI4MTk5NTEyMTQ2OTY4NTc3.DZvnYw.hoNwMC5rbUmXIWseZhGy9zViYPs")
-#Please dont steal my money!
+bot.run(process.env.BOT_TOKEN)
